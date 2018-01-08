@@ -1,0 +1,13 @@
+C:\Finance_Transformation\21DEC17\FTA-Demo-AdminDashboard\FTA-Demo-AdminDashboard
+
+
+
+C:\Program Files\MongoDB\Server\3.4\bin
+
+
+mongodump --db test --out C:\Finance_Transformation\DB_BKP_08JAN17\DB_BKP_08JAN17.json
+
+
+mongorestore --db test C:\Finance_Transformation\DB_BKP_08JAN17\DB_BKP_08JAN17.json
+
+mongorestore -d <database_name> <directory_backup>
